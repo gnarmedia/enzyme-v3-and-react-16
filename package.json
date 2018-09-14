@@ -4,7 +4,7 @@
   "description": "Example of Jest, Enzyme v3 and React 16",
   "scripts": {
     "dev": "NODE_ENV=development nodemon --experimental-modules src/server/index.mjs",
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "author": "Eduardo Rabelo (https://github.com/oieduardorabelo)",
   "license": "MIT",
@@ -22,5 +22,8 @@
     "react": "16.5.0",
     "react-dom": "16.5.0",
     "react-test-renderer": "16.5.0"
+  },
+  "devDependencies": {
+    "babel-plugin-rewire": "^1.2.0"
   }
 }
